@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<!--<link rel="icon" href="https://imgtu.com/i/vSeuiF" />-->
+		<link rel="icon" href="https://s1.ax1x.com/2022/07/26/vSeuiF.jpg">
+		<title>No.1webpage</title>
+		<link rel="stylesheet" type="text/css" href="css/index.css" />
+	</head>
+	<style>
+		body{background-color: #00FFFF;}
+		
+		
+		
+		#plane img{
+		animation: myplane 6s ease infinite forwards;
+		 /*动画名称 完成动画所需时间 速度曲线 无限循环播放 动画结束后停留在动画结束状态*/
+		position: absolute;
+		}
+		
+		@keyframes myplane{
+		0%{ 
+		top: 0px;
+		left: 0px;
+		}
+		50%{
+		top: 35%;
+		left: 90%;
+		transform: rotateY(180deg);
+		}
+		100%{
+		top: 80%;
+		left: 0px;
+		}
+		}
+		
+		
+		
+		
+		
+		
+		
+	</style>
+	<body id="bo" >
+		
+		<div id="f">
+		
+				<a name="top"></a>  <!-- 锚链接的锚点-->
+		
+				<h1>can you see me</h1>
+				第一段参考文字
+				<blockquote cite=" http://www.jredu100.com">引用的文字</blockquote>
+				第二段参考文字
+			
+		</div>
+				
+		<div id="s" >
+				<!-- 图片 -->
+				<br />
+				
+				<a href="http://www.sinaimg.cn/IT/ul/2007/0706/U1235P2DT20070706140051.jpg"><img src="http://www.sinaimg.cn/IT/ul/2007/0706/U1235P2DT20070706140051.jpg" width="500" height="500" /></a>
+		
+				<!-- 输入框 -->
+				<h1>请输入内容：</h1>
+				<form action="https://www.baidu.com" method="GET">
+						<input style="height: 50pt;font-size: 20pt;" name="text1" type="text" placeholder="请输入"/>
+						<input type="submit"" value="提交"/>
+					<!-- <input type="submit"" value="提交"/> -->
+				</form>
+				
+				<br />
+		</div  >
+			
+			
+			
+		<!-- 内容提交到哪里怎么看 https://blog.csdn.net/weixin_39535557/article/details/117843706 -->
+				<br />
+				
+		<div id="wenjian" >
+			
+				<form action="https://www.baidu.com" method="GET" enctype="multipart/form-data ">
+						<input type="file"/><input type="submit"" value="提交"/>
+				</form>
+				
+		</div>
+		
+				<br />
+				<br />
+				<br />
+				
+		<div id="dianwo">
+				<form action="form.php" method="post">
+						<input type="button" value="点我！" onclick="alert('这是一个按钮！')" />
+				</form>
+				
+				<br />
+		</div>
+		
+		
+		
+		<div id="plane">
+			
+					<img src="https://img1.baidu.com/it/u=968732454,1231333045&fm=253&fmt=auto&app=138&f=JPEG?w=610&h=450" width="100" height="50" />
+		</div>
+		
+		
+		
+		<div>
+					<!-- 锚链接 点击回到上面锚点 -->
+					<a href="#top" target="_self">回到顶端</a>
+		
+		</div>
+		
+		
+		
+	</body>
+</html>
